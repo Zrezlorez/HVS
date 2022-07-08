@@ -1,0 +1,6 @@
+name: Hxh
+version: '${project.version}'
+main: algiri.hxh.Hxh
+api-version: 1.17
+commands:
+  hvs:
