@@ -7,12 +7,8 @@ import org.bukkit.ChatColor;
 import org.bukkit.command.CommandSender;
 import org.bukkit.entity.Player;
 
-import java.awt.*;
-import java.util.ArrayList;
-import java.util.Collections;
 import java.util.List;
 
-import static org.bukkit.Bukkit.getServer;
 
 
 public class Hvs extends AbsctractCommand {
@@ -44,7 +40,7 @@ public class Hvs extends AbsctractCommand {
 
     @Override
     public List<String> complete(CommandSender sender, String[] args){
-        if(args.length==1) return Lists.newArrayList("start", null);
+        if(args.length==1) return Lists.newArrayList("start");
         return Lists.newArrayList();
     }
 }

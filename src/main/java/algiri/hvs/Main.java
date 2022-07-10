@@ -2,13 +2,8 @@ package algiri.hvs;
 
 import algiri.hvs.command.Hvs;
 import org.bukkit.Bukkit;
-import org.bukkit.GameMode;
-import org.bukkit.Location;
-import org.bukkit.Server;
-import org.bukkit.entity.Player;
-import org.bukkit.plugin.java.JavaPlugin;
 
-import static org.bukkit.Bukkit.getServer;
+import org.bukkit.plugin.java.JavaPlugin;
 
 
 public final class Main extends JavaPlugin {
@@ -23,7 +18,6 @@ public final class Main extends JavaPlugin {
 
         Bukkit.getPluginManager().registerEvents(new EventListener(), this);
     }
-
 
 
     public static Main getInstance() {
