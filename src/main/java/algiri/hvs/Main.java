@@ -2,14 +2,18 @@ package algiri.hvs;
 
 import algiri.hvs.command.Hvs;
 import org.bukkit.Bukkit;
+import org.bukkit.GameMode;
+import org.bukkit.Location;
+import org.bukkit.Server;
+import org.bukkit.entity.Player;
 import org.bukkit.plugin.java.JavaPlugin;
 
-import java.util.logging.Logger;
+import static org.bukkit.Bukkit.getServer;
+
 
 public final class Main extends JavaPlugin {
 
     private static Main instance;
-    public static final Logger log = Logger.getLogger("Minecraft");
     @Override
     public void onEnable() {
 

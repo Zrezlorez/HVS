@@ -1,6 +1,6 @@
-name: Hxh
+name: Hvs
 version: '${project.version}'
-main: algiri.hxh.Hxh
+main: algiri.hvs.Main
 api-version: 1.17
 commands:
-  hvs:
+  hvs: {}
